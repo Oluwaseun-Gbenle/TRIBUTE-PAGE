@@ -1,0 +1,52 @@
+h1{
+    font-family:Segoe UI black;
+  }
+  h3{
+    font-family:Segoe UI;
+  }
+  #center{
+      text-align: center;
+  }
+  p{
+   font-family:Segoe UI;
+   padding:0px 100px 10px 100px; 
+   text-align:center;
+    line-height: 25px;
+    font-size:18px;
+  }
+  ul{
+    line-height:50px;
+    font-size:18px;
+    font-family:Segoe UI;
+    margin:auto;
+    width:40%;
+  }
+  main{
+    background-color:#D3D3D3;
+    
+  }
+  
+  #img-div{
+    background-color:white
+  }
+  #image{
+    display:block;
+    margin:0px auto 0px auto;
+    max-width:500px;
+  }
+  a:hover{
+    color:red;
+  }
+  
+  @media screen and (max-width: 600px)
+  {
+    #image{
+      max-width: 300px;
+    }
+    h1, p,ul{
+      text-align:center;
+    }
+    ul{
+    margin-right:130px 
+    }
+  }
